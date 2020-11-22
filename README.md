@@ -3,6 +3,11 @@ Its a simple Instagram bot that automate instagram interactions i.e Likes, Comme
 #functional
 the bot search for certain  hash tags and like those posts then start liking posts from new feeds
 #requirements
+firefox (recomended)
 python 3
 pip (for instaling packages)
 instaPy
+Selenium
+#Prerequsites
+pip install instaPy
+pip install Selenium

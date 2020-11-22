@@ -1,7 +1,7 @@
 from instapy import InstaPy
 #creating session uisng password and email id
-session = InstaPy(username="waseem.ali404",
-                  password="Junglebook2@").login()
+session = InstaPy(username="test",
+                  password="test").login()
 # for running the bot with out browser gui use this one
 #session = InstaPy(username='test', password='test', headless_browser=True)
 #setting the session to like 100 post randomly,  setting unfollow to false
@@ -12,6 +12,7 @@ session.set_dont_like(["naked", "nsfw"])
 session.like_by_feed(amount=100, randomize=False, unfollow=False, interact=False)
 #incase you wnat the bot to follow some accounts
 #session.set_do_follow(enabled=True, percentage=10, times=2)
+#avoid following users with such constrains
 #session.set_relationship_bounds(enabled=True, max_followers=8500)
 #setting comment percentage to 80 persent
 session.set_do_comment(True, percentage=80)
